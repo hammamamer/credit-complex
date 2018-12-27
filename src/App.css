@@ -1,0 +1,121 @@
+body
+{
+  background-image: url("./res/master2.png");
+
+  background-repeat: no-repeat;
+  background-size: 100% 700px;
+}
+.App
+{
+ color: rgb(6, 4, 107);
+}
+.container
+{
+  display: flex;
+  margin-left: 13%;
+  
+}
+.container div
+{
+  margin-left: 100px;
+  margin-top: 150px;
+}
+p
+{
+  height: 20px;
+  margin-left: 300px;
+  font-size: 15px;
+}
+h3
+{
+  height: 30px;
+  width: 200px;
+  margin-left: 150px;
+  
+}
+h4
+{
+  margin-left: 15px;
+  font-size: 20px;
+}
+.validThru
+{
+  
+  margin-left: 150px;
+}
+.code
+{
+  margin-top: 70px;
+  margin-left: 10px;
+}
+img
+{
+  border-radius: 30px;
+}
+form input[type=text]:focus
+{
+  outline: none !important;
+}
+form input[type=text]::placeholder
+{
+  color:rgb(6, 4, 107);
+}
+form input[type="submit"]
+{
+  width: 150px;
+  height: 30px;
+  margin-top: 5px;
+  background-color: black;
+  color: white;
+  border:none;
+  border-radius: 5px;
+  margin-left: 25%;
+}
+form input[type=text]
+{
+  height: 30px;
+  width: 350px;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 5px;
+  background-color: skyblue;
+  border:none;
+  
+}
+.masterCardImg
+{
+  position: absolute;
+  top:150px;
+  margin-right: 300px;
+  z-index: -50;
+}
+
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
